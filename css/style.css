@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=VT323&display=swap');
+
+
+/* reset navigator */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Roboto Mono','VT323' , monospace;
+}
+
+/* general */
+
+.grillaPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "main main main main"
+    "footer footer footer footer"
+    ;
+}
+
+/* header */
+
+header{
+    background-color: black;
+    color: aliceblue;
+    grid-area: header;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+nav.navigation{
+    grid-area: nav;
+    color: aliceblue;
+    background-color: black;
+}
+.mainSection{
+    grid-area: main;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+.title{
+    font-size: 25px;
+    margin-left: 40px;
+}
+
+.rrssNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.rrssNav span{
+    list-style-type: none;
+    margin:0px 20px;
+    font-size: 30px;
+}
+
+.rrssNav span a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* navigation */
+
+.navigation ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/* main  */
+
+.about{
+    color:black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fotoPerfil {   
+    border: solid 2px #294c54;
+    width: 200px ;
+    border-radius: 100%;
+
+}
+
+button, .contactBtn {
+    margin: 20px 0;
+    text-decoration: none;
+    background-color:white;
+    color: #0a818d;
+    border: none;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 6px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.mainSection p {
+    margin-top: 30px;
+    color: black;
+}
+
+
+.mainSection form {
+    background-color: #0a818d;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;   
+}
+
+footer {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+} 
+
+.subtitle {
+    color: #0a818d;
+    padding: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.contact{
+    padding: 20px;  
+}
+
+.logoCoder{
+    width: 10%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border:solid 2px black;
+}
+
+.logoAwakelab{
+    width: 10%;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border:solid 2px black;
+}
+
+@media screen and (max-width:768px)  {
+    .grillaPrincipal{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "main main main"
+        "footer footer footer"
+        ;
+    }
+    .rrssNav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:480px)  {
+    .grillaPrincipal{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-areas: 
+        "header"
+        "nav"
+        "main"
+        "footer"
+        ;
+    }
+
+
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        align-items: flex-start;
+    }
+}
+
+.box{
+    background-color: #0a818d;
+    border-radius: 5px;
+    margin: 10px 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.inBox {
+    padding: 30px;
+    margin:20px;
+    border-radius: 5px;
+    content: normal;
+    background-color: #294c54;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.indexBox{
+    background-color: #0a818d;
+    border-radius: 5px;
+    margin: 10px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.indexBox p{
+    margin: 10px 60px;
+}
