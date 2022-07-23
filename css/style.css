@@ -17,7 +17,6 @@
 
 /* main  */
 
-
 .subtitle {
     color: #0a818d;
     font-weight: bold;
@@ -46,17 +45,16 @@ a.effect-shine:hover {
 }
 
 
-
-
-
-
-
-.fotoPerfil {   
-    border: solid 2px #294c54;
-    width: 200px ;
-    border-radius: 100%;
-
+.secondaryColor{
+    color: #294c54;
 }
+
+.secondaryColor2{
+    background-color: #0aacb4;
+}
+
+
+
 
 button, .contactBtn {
     margin: 20px 0;
@@ -74,18 +72,8 @@ button, .contactBtn {
 }
 
 
-.mainSection p {
-    margin-top: 30px;
-    color: black;
-}
 
 
-.mainSection form {
-    background-color: #0a818d;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;   
-}
 
 footer {
     margin-top: 15px;
