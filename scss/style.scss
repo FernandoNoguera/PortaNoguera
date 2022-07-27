@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300,400");
+@import "./utilities/variables";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+}
