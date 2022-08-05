@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:300,400");
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1em; }
+
 /* Variables  */
 .activation {
   text-decoration: underline #b8c4c4; }
@@ -57,15 +65,11 @@ main {
 
 footer {
   margin-top: 15px;
+  width: none;
+  height: none;
+  padding: 20px;
+  margin: none;
   padding: 20px;
   background-color: black;
   color: #b8c4c4;
   text-align: center; }
-
-/* reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Dosis', sans-serif;
-  font-size: 1em; }
