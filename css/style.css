@@ -25,6 +25,9 @@
 .tamañoIconos {
   font-size: 50px; }
 
+.listaCard {
+  list-style: none; }
+
 button, .contactBtn {
   margin: 20px 0;
   text-decoration: none;
