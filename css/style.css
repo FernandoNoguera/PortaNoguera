@@ -68,10 +68,9 @@ a.effect-shine:hover {
     -webkit-mask-position: -50%; } }
 
 main {
-  margin: 160px 0px 0px 0px; }
+  margin: 100px 0px 0px 0px; }
 
 footer {
-  margin-top: 15px;
   width: none;
   height: none;
   padding: 20px;
@@ -79,4 +78,8 @@ footer {
   padding: 20px;
   background-color: black;
   color: #b8c4c4;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0; }

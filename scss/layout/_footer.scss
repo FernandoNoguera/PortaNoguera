@@ -1,8 +1,14 @@
-footer {
-    margin-top: 15px;
+footer{
     @include medidas(none, none, 20px, none);
     padding: 20px;
     background-color: black;
     color: $color5;
     text-align: center;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    
+    // height:40px;
+    bottom: 0;
+    // position: absolute;
 }
