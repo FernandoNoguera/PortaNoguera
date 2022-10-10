@@ -32,7 +32,7 @@ button, .contactBtn {
   margin: 20px 0;
   text-decoration: none;
   background-color: #b8c4c4;
-  color: #0a818d;
+  color: #0aacb4;
   border: none;
   border-radius: 10px;
   padding-top: 6px;
@@ -43,7 +43,7 @@ button, .contactBtn {
   font-weight: bold; }
 
 .fondoLindo {
-  background-color: #0a818d; }
+  background: linear-gradient(135deg, #0a818d 33%, #0aacb4 100%, #84dcd8 100%); }
 
 .secondaryColor {
   color: #294c54; }
@@ -52,11 +52,11 @@ button, .contactBtn {
   background-color: #294c54; }
 
 .subtitle {
-  color: #0a818d;
+  color: #0aacb4;
   font-weight: bold; }
 
 /* link HOVER */
-a.effect-shine:hover {
+a.effect-shine:hover, a button:hover, a .contactBtn:hover {
   -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 0.6) 30%, #000 50%, rgba(0, 0, 0, 0.6) 70%);
   -webkit-mask-size: 200%;
   animation: shine 2s infinite; }
@@ -68,18 +68,17 @@ a.effect-shine:hover {
     -webkit-mask-position: -50%; } }
 
 main {
-  margin: 100px 0px 190px 0px; }
+  margin: 100px 0px 250px 0px; }
 
 footer {
   width: none;
   height: none;
-  padding: 20px;
+  padding: none;
   margin: none;
-  padding: 20px;
+  padding: 10px;
   background-color: black;
   color: #b8c4c4;
   text-align: center;
   width: 100%;
-  position: fixed;
   left: 0;
   bottom: 0; }

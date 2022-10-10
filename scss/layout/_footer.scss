@@ -1,11 +1,10 @@
 footer{
-    @include medidas(none, none, 20px, none);
-    padding: 20px;
+    @include medidas(none, none, none, none);
+    padding: 10px;
     background-color: black;
     color: $color5;
     text-align: center;
     width: 100%;
-    position: fixed;
     left: 0;
     bottom: 0;
 }

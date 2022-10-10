@@ -10,7 +10,7 @@ button, .contactBtn {
     margin: 20px 0;
     text-decoration: none;
     background-color:$color5;
-    color: $color3;
+    color: $color1;
     border: none;
     border-radius: 10px;
     padding-top: 6px;
@@ -22,7 +22,7 @@ button, .contactBtn {
 }
 
 .fondoLindo{
-    background-color: $color3;
+    background: $color3;
 }
 
 .secondaryColor{
@@ -35,14 +35,14 @@ button, .contactBtn {
 }
 
 .subtitle {
-    color: $color3;
+    color: $color1;
     font-weight: bold;
 }
 
 /* link HOVER */
 
-a{
-    &.effect-shine{
+a  {
+    &.effect-shine ,button, .contactBtn {
         &:hover{
             -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
             -webkit-mask-size: 200%;
@@ -61,6 +61,6 @@ a{
     }
 }
 main{
-    margin: 100px 0px 190px 0px;
+    margin: 100px 0px 250px 0px;
 }
 
